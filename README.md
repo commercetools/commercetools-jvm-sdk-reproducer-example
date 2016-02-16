@@ -118,7 +118,7 @@ we add to the logback-test.xml file after the entry `<logger name="sphere" level
 
 ```
 <logger name="sphere.product-types" level="TRACE" />
-<logger name="sphereproducts" level="TRACE" />
+<logger name="sphere.products" level="TRACE" />
 ```
 
 Then running the tests we get the following log entries:
